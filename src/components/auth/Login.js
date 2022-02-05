@@ -48,7 +48,6 @@ function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-
     try {
       const res = await loginUser(formData)
       console.log(res.data.token)

@@ -60,7 +60,6 @@ function ChatShow() {
     }
   }
 
-
   return (
     <div>
       <Card sx={{ width: '50%', mx: 'auto', display: 'flex', flexDirection: 'column', mt: 10, alignItems: 'center' }} >
