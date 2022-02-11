@@ -11,14 +11,11 @@ import TextField from '@mui/material/TextField'
 
 function ChatShow() {
   const { chatId } = useParams()
-
   const [allMessages, setAllMessages] = React.useState([])
   const [message, setMessage] = React.useState('')
   const [receiverId, setReceiverId] = React.useState('')
   const currentUserId = JSON.parse(localStorage.getItem('userId'))
   const [receiverName, setReceiverName] = React.useState('')
-
-
 
   React.useEffect(() => {
 
